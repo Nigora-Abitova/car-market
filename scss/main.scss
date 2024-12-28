@@ -8,7 +8,13 @@
 
 // 3. Components: Odatiy qayta ishlatishimiz mumkin bo'lgan narsalar
 @use './components/_header';
-
+@use './components/footer';
+@use './components/container';
 // 4. Pages: Asosiy sahifalardagi maxsus stillar
 @use './pages/home';
+@use './pages/category';
+@use './pages/autocredit';
+@use './pages/contact';
+@use './pages/model';
+@use './pages/news';
 
