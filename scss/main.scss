@@ -1,0 +1,14 @@
+// 1. Abstracts: Variables, Mixins
+@use "./abstracts/variables";
+@use './abstracts/mixin';
+
+// 2. Base styles: Reset, Fonts
+@use './base/reset';
+@use './base/fonts';
+
+// 3. Components: Odatiy qayta ishlatishimiz mumkin bo'lgan narsalar
+@use './components/_header';
+
+// 4. Pages: Asosiy sahifalardagi maxsus stillar
+@use './pages/home';
+
